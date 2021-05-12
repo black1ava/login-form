@@ -1,0 +1,52 @@
+form{
+  display: grid;
+  grid-template-columns: 300px 200px;
+  grid-template-rows: 25px 25px 25px 25px 100px 100px 25px  25px;
+  grid-gap: 30px;
+  justify-content: center;
+  padding: 25px;
+}
+
+#sub-container{
+  background-color: antiquewhite;
+}
+
+p{
+  text-align: center;
+}
+
+label{
+  text-align: right;
+}
+
+#timeDiv{
+  display: grid;
+  grid-template-columns: 20px 100px;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#feelingDiv{
+  display: grid;
+  grid-template-columns: 20px 100px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
+
+#timeDiv label, #feelingDiv label{
+  text-align: left;
+}
+
+button{
+  grid-column: 1/3;
+  justify-self: center;
+  width: 25%;
+}
+
+#container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body{
+  background-color: aqua;
+}
